@@ -32,7 +32,8 @@ inquirer.prompt([
     }
   ])
   .then(answers => {
-    const ws = xlsx.readFile(answers.file).Sheets['Sheet1'];
+    const wb = xlsx.readFile(answers.file);
+    const ws = wb.Sheets[Object.keys(wb.Sheets)[0]];
 
     // convert the sheet to json for splitting
     const json = xlsx.utils.sheet_to_json(ws);
