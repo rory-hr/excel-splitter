@@ -1,0 +1,24 @@
+{
+  "name": "excel-splitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rory-roccio/excel-splitter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rory-roccio/excel-splitter/issues"
+  },
+  "homepage": "https://github.com/rory-roccio/excel-splitter#readme",
+  "dependencies": {
+    "inquirer": "^7.3.0",
+    "xlsx": "^0.16.3"
+  }
+}
